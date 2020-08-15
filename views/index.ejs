@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/stylesheet.css">
+
+</head>
+
+ <body>
+ <div id="master">
+   <h1><span id="header"><a href="https://github.com/AngshumanDutta/TicTacToe"><img src="https://i.ibb.co/kQW1d2c/github.png"></a>  Tic Tac Toe</span></h1>
+       <div id="levelButton"><span class="someText">First select difficulty level:</span>
+             <button id="easy" class="clickButtons"><span id="easy1">EASY</span></button>
+             <button id="impossible" class="clickButtons"><span id="impossible1">IMPOSSIBLE</span></button>
+       </div>
+       <div id="playerButton"><span class="someText">Second select Player:</span>     
+              <button id="playerX" class="clickButtons"><span id="x1">X</span></button>
+              <button id="playerO" class="clickButtons"><span id="o1">O</span></button>
+       </div>
+       <div>
+          <form><button id="playAgainButton"><span id="again">Play Again!</span></button></form>
+       </div>
+       <div id="gameResult"></div>
+   <table>
+
+    <tr>
+      <td></td>
+      <td class="vertical"></td>
+      <td><h1></h1></td>
+    </tr> 
+
+    <tr><td class="horizontal"><h1></h1></td>
+      <td class="vertical horizontal"><h1></h1></td>  <!--There are two classes here-->
+      <td class="horizontal"><h1></h1></td>
+    </tr>
+
+    <tr>
+      <td><h1></h1></td>
+      <td class="vertical"><h1></h1></td>
+      <td><h1></h1></td>
+    </tr>
+
+   </table>
+  <!--  <button id="playAgainButton"><span id="again">Play Again!</span></button> -->
+</div>
+ <footer>Made by Angshuman</footer>
+
+<script type="text/javascript" src="assets/js/gameLogic.js"></script> 
+
+</body>
+</html>
