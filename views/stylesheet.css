@@ -1,0 +1,143 @@
+/*STYLE-SHEET*/
+body{
+    background-color: #14BDAC;
+    font-family: 'Roboto', sans-serif;
+  }
+  #master{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+  }
+  h1{
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: white;
+  text-shadow: 2px 2px 1px #302e2e;
+  }
+
+ .horizontal{
+  border-bottom: 6px solid #424040;
+    border-top: 6px solid #424040;
+    border-radius: 3px;
+  }
+
+ .vertical{
+  border-right: 6px solid #424040;
+  border-left: 6px solid #424040;
+  border-radius: 3px;
+  }
+
+  table{
+  position: absolute;
+  width: 30%;
+  height: 14%;
+  margin-left: 34.5%;
+  margin-top: 1%;
+  /*align-items: center;*/
+  }
+
+  td{
+     width: 90px; 
+     height: 140px;
+    /*margin: 10px auto;*/
+  }
+  .displayStyleXtran{
+  text-align: center;
+  font-size: 600%;
+  color: #424040;
+  text-shadow: 2px 2px 2px #c4bdbc;
+  transition: 0.3s;
+  transition-delay: 0.2s;
+  }
+  .displayStyleX{
+  text-align: center;
+  font-size: 600%;
+  color: #424040;
+  text-shadow: 2px 2px 2px #c4bdbc;
+  }
+  .displayStyleOtran{
+  text-align: center;
+  font-size: 600%;
+  color: white;
+  text-shadow: 2px 2px 2px grey;
+  transition: 0.3s;
+  transition-delay: 0.2s;
+  }
+  .displayStyleO{
+  text-align: center;
+  font-size: 600%;
+  color: white;
+  text-shadow: 2px 2px 2px grey;
+  }
+  footer{
+    margin-top: 695px;
+    margin-left: 10px;
+  }
+  #playAgainButton{
+    margin-left: 46.5%;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-image: linear-gradient(to right top, #f5070b, #ff0048, #ff0081, #f700c0, #bd08ff);
+    border: 3px solid purple;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  #again{
+    color: white;
+    text-shadow: 1px 1px gray;
+  }
+  .cutting{
+    text-decoration: line-through red;
+    transition: 0.2s linear;
+    transition-delay: 0.1s;
+  }
+  #playerButton{
+      margin-left: 36.5%;
+      margin-top: 10px;
+      margin-bottom: 0;
+  }
+  #levelButton{
+      margin-left: 36.5%;
+      margin-top: 10px;
+      margin-bottom: 0px;
+  }
+  #gameResult{
+    height: 60px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px #302e2e;
+    transition: 0.3s;
+    transition-delay: 0.5s;
+  }
+  .clickButtons{
+      height: 30px;
+      width: 50px;
+      border: 2px solid blue;
+      border-radius: 5px;
+  }
+  #impossible{
+    width: 100px;
+  }
+  #easy{
+    margin-left: 20px;
+    margin-right: 40px;
+  }
+  #playerX{
+    margin-left: 51px;
+    margin-right: 40px;
+  }
+  .someText{
+    color: white;
+    text-shadow: 1.5px 1.5px 1.5px #302e2e;
+  }
+/*  #creator-name{
+  	font-size: 1.2em;
+  	font-weight: bold;
+  }*/
