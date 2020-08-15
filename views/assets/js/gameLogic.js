@@ -1,4 +1,3 @@
-//GETTING ALL REQUIRED ELEMENTS
 var td = document.querySelectorAll("td");
 var playAgain = document.querySelector("#playAgainButton");
 var body = document.querySelector("body");
