@@ -41,6 +41,12 @@ section{
     height: 3%;
 }
 
+.cutting{
+    text-decoration: line-through red;
+    transition: 0.2s linear;
+    transition-delay: 0.1s;
+}
+
 @media screen and (max-width: 575px) {
     section{
         display: flex;
