@@ -10,45 +10,53 @@
 </head>
 
  <body>
- <div id="master">
-   <h1><span id="header"><a href="https://github.com/AngshumanDutta/TicTacToe"><img src="https://i.ibb.co/kQW1d2c/github.png"></a>  Tic Tac Toe</span></h1>
-       <div id="levelButton"><span class="someText">First select difficulty level:</span>
-             <button id="easy" class="clickButtons"><span id="easy1">EASY</span></button>
-             <button id="impossible" class="clickButtons"><span id="impossible1">IMPOSSIBLE</span></button>
-       </div>
-       <div id="playerButton"><span class="someText">Second select Player:</span>     
-              <button id="playerX" class="clickButtons"><span id="x1">X</span></button>
-              <button id="playerO" class="clickButtons"><span id="o1">O</span></button>
-       </div>
-       <div>
-          <form><button id="playAgainButton"><span id="again">Play Again!</span></button></form>
-       </div>
-       <div id="gameResult"></div>
-   <table>
+  <section>
+ 
+    <div id="heading" class="box box-1">
+        <span id="header"><a href="https://github.com/AngshumanDutta/TicTacToe"><img src="https://i.ibb.co/kQW1d2c/github.png" alt="github" border="0"></a><div id="spacer"></div> Tic Tac Toe</span>
+    </div>
 
-    <tr>
-      <td></td>
-      <td class="vertical"></td>
-      <td><h1></h1></td>
-    </tr> 
+    <div id="levelButton" class="box box-2">
+         <span class="someText">First select difficulty level:</span>
+         <button id="easy" class="clickButtons"><span id="easy1">EASY</span></button>
+         <button id="impossible" class="clickButtons"><span id="impossible1">IMPOSSIBLE</span></button>
+    </div>
 
-    <tr><td class="horizontal"><h1></h1></td>
-      <td class="vertical horizontal"><h1></h1></td>  <!--There are two classes here-->
-      <td class="horizontal"><h1></h1></td>
-    </tr>
+    <div id="playerButton" class="box box-3">
+         <span class="someText">Second select Player:</span>     
+         <button id="playerX" class="clickButtons"><span id="x1">X</span></button>
+         <button id="playerO" class="clickButtons"><span id="o1">O</span></button>
+    </div>
 
-    <tr>
-      <td><h1></h1></td>
-      <td class="vertical"><h1></h1></td>
-      <td><h1></h1></td>
-    </tr>
+    <div id="play-again" class="box box-4">
+         <form><button id="playAgainButton"><span id="again">Play Again</span></button></form>
+    </div>
 
-   </table>
-  <!--  <button id="playAgainButton"><span id="again">Play Again!</span></button> -->
-</div>
- <footer>Made by Angshuman Dutta</footer>
+    <div id="gameResult" class="box box-5"></div>
+
+       <table id="grid" class="box box-6">
+         <tr>
+           <td></td>
+           <td class="vertical"></td>
+           <td></td>
+         </tr> 
+
+         <tr><td class="horizontal"></td>
+           <td class="vertical horizontal"></td>  <!--There are two classes here-->
+           <td class="horizontal"></td>
+         </tr>
+
+         <tr>
+           <td></td>
+           <td class="vertical"></td>
+           <td></td>
+         </tr>
+       </table>
+
+<div id="creator-name" class="box box-7">Made by Angshuman Dutta</div>
+
+</section>
 
  <script src="/scripts/gameLogic.js" type="text/javascript"></script> 
-
 </body>
 </html>

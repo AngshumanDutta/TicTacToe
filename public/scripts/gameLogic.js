@@ -1,3 +1,4 @@
+//Getting all required elements
 var td = document.querySelectorAll("td");
 var playAgain = document.querySelector("#playAgainButton");
 var body = document.querySelector("body");
@@ -131,17 +132,17 @@ function impossibleCounterO4(v)
 easy.addEventListener("click",function(){
     stopImpossible = true;
     easy1.style.color = "white";
-   easy.style.background = "#111da8";
+   easy.classList.add("buttonColor");
    impossible1.style.color = "black";
-   impossible.style.background = "white";
+   impossible.classList.remove("buttonColor");
 
  //EASY LEVEL PLAYER X
  playerX.addEventListener("click",function(){
    stopGame1 = true;
    x1.style.color = "white";
-   playerX.style.background = "#111da8";
+   playerX.classList.add("buttonColor");
    o1.style.color = "black";
-   playerO.style.background = "white";
+   playerO.classList.remove("buttonColor");
    for(var i=0; i<td.length; i++){
      td[i].addEventListener("click",function(){
 
@@ -429,9 +430,9 @@ easy.addEventListener("click",function(){
    stopGame = true;
    // stopGame1 = false;
    o1.style.color = "white";
-   playerO.style.background = "#111da8";
+   playerO.classList.add("buttonColor");
    x1.style.color = "black";
-   playerX.style.background = "white";
+   playerX.classList.remove("buttonColor");
    for(var i=0; i<td.length; i++){
      td[i].addEventListener("click",function(){
         counter1++;
@@ -722,16 +723,16 @@ easy.addEventListener("click",function(){
 impossible.addEventListener("click",function(){
     stopEasy = true;
     impossible1.style.color = "white";
-   impossible.style.background = "#111da8";
+   impossible.classList.add("buttonColor");
    easy1.style.color = "black";
-   easy.style.background = "white";
+   easy.classList.remove("buttonColor");
     //IMPOSSIBLE LEVEL PLAYER X
    playerX.addEventListener("click",function(){
    stopO = true;
    x1.style.color = "white";
-   playerX.style.background = "#111da8";
+   playerX.classList.add("buttonColor");
    o1.style.color = "black";
-   playerO.style.background = "white";
+   playerO.classList.remove("buttonColor");
 
       for(var i=0; i<td.length; i++){
         td[i].addEventListener("click",function(){
@@ -2212,9 +2213,9 @@ impossible.addEventListener("click",function(){
    stopX = true;
    // stopGame1 = false;
    o1.style.color = "white";
-   playerO.style.background = "#111da8";
+   playerO.classList.add("buttonColor");
    x1.style.color = "black";
-   playerX.style.background = "white";
+   playerX.classList.remove("buttonColor");
 
       for(var i=0; i<td.length; i++){
         td[i].addEventListener("click",function(){
