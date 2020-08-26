@@ -1,0 +1,18 @@
+.box-6{
+    height: 68%;
+    width: 95%;
+    td{
+        width: 33.33333%;
+        height: 33.33333%;
+      }
+      .horizontal{
+        border-bottom: 6px solid #424040;
+        border-top: 6px solid #424040;
+        border-radius: 3px;
+      }
+      .vertical{
+        border-right: 6px solid #424040;
+        border-left: 6px solid #424040;
+        border-radius: 3px;
+      }
+}

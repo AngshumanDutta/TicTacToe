@@ -1,0 +1,33 @@
+$textSize: 6em;
+
+.displayStyleXtran{
+    text-align: center;
+    font-size: $textSize;
+    color: #424040;
+    text-shadow: 2px 2px 2px #cdced8;
+    transition: 0.3s;
+    transition-delay: 0.2s;
+}
+
+.displayStyleX{
+    text-align: center;
+    font-size: $textSize;
+    color: #424040;
+    text-shadow: 2px 2px 2px #c4bdbc;
+}
+
+.displayStyleOtran{
+    text-align: center;
+    font-size: $textSize;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(41, 40, 40);
+    transition: 0.3s;
+    transition-delay: 0.2s;
+}
+
+.displayStyleO{
+    text-align: center;
+    font-size: $textSize;
+    color: white;
+    text-shadow: 2px 2px 2px grey;
+}
