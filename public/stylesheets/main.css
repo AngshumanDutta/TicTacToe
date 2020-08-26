@@ -244,6 +244,15 @@ section {
   height: 3%;
 }
 
+.cutting {
+  -webkit-text-decoration: line-through red;
+          text-decoration: line-through red;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
 @media screen and (max-width: 575px) {
   section {
     display: -webkit-box;
