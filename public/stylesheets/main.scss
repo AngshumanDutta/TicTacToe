@@ -7,12 +7,9 @@
 @import "./displayStyle";
 
 body{
-    // background-color: #14BDAC;
-    // background-image: linear-gradient(to right bottom, #585a5f, #7a7c81, #9e9fa5, #c4c4ca, #ebeaf1);
     font-family: 'Roboto', sans-serif;
-    background: rgb(75,75,76);
-    background: linear-gradient(325deg, rgba(75,75,76,1) 2%, rgba(200,201,210,1) 21%, rgba(195,195,201,1) 45%, rgba(93,94,95,1) 93%);
-  }
+    background-image: linear-gradient(to right bottom, #1811af, #0062e6, #009afc, #00cdfd, #5bfdfd);
+}
 
 section{
     display: flex;
@@ -42,9 +39,9 @@ section{
 }
 
 .cutting{
-    text-decoration: line-through red;
+    text-decoration: line-through #050178;
     transition: 0.2s linear;
-    transition-delay: 0.1s;
+    transition-delay: 0.2s;
 }
 
 @media screen and (max-width: 575px) {
@@ -91,8 +88,18 @@ section{
     
         .clickButtons{
             font-size: 0.85em;
-            border: 2px solid orangered;
+            border: 2px solid white;
             border-radius: 5px;
+            background-color: #017aff;
+            span{
+                color: white;
+            }
+        }
+        .clickButtons:hover{
+            background-color: white;
+            span{
+                color: #017aff;
+            }
         }
     }
     .box-3{
@@ -104,12 +111,22 @@ section{
         width: 61.5%;
         font-size: 0.85em;
         color: white;
-        text-shadow: 2px 2px 1px #302e2e;
+        text-shadow: 1.5px 1.5px 1px #302e2e;
     
         .clickButtons{
             font-size: 0.85em;
-            border: 2px solid orangered;
+            border: 2px solid white;
             border-radius: 5px;
+            background-color: #017aff;
+            span{
+                color: white;
+            }
+        }
+        .clickButtons:hover{
+            background-color: white;
+            span{
+                color: #017aff;
+            }
         }
     }
     .box-4{
@@ -121,10 +138,16 @@ section{
         #playAgainButton{
             font-size: 0.85em;
             color: white;
-            border: 1px solid orangered;
-            box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, .2);
+            border: 2px solid white;
             border-radius: 5px;
-            background-image: linear-gradient(to right top, #c21600, #c93011, #d0421f, #d6512d, #dc603b, #e56e3d, #ee7d3f, #f68b42, #ffa037, #ffb72a, #ffcf1d, #fce816);
+            background-color: #017aff;
+        }
+        #playAgainButton:hover{
+            font-size: 0.85em;
+            color: #017aff;
+            border: 2px solid white;
+            border-radius: 5px;
+            background-color: white;
         }
     }
     .box-5{
@@ -134,7 +157,6 @@ section{
         justify-content: space-around;
         align-items: center;
         font-size: 1.2em;
-        color: white;
-        text-shadow: 1.5px 1.5px 1px #302e2e;
+        color: #222121;
     }
 }
