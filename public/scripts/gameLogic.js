@@ -431,10 +431,10 @@ easy.addEventListener("click",function(){
     td[v1].classList.add("displayStyleXtran");
    stopGame = true;
    // stopGame1 = false;
-   o1.style.color = "white";
-   playerO.classList.add("buttonColor");
-   x1.style.color = "black";
-   playerX.classList.remove("buttonColor");
+   o1.style.color = "#017aff";
+   playerO.style.background = "white";
+   x1.style.color = "white";
+   playerX.style.background = "#017aff";
    for(var i=0; i<td.length; i++){
      td[i].addEventListener("click",function(){
         counter1++;
@@ -2214,10 +2214,10 @@ impossible.addEventListener("click",function(){
     td[3].classList.add("displayStyleXtran");
    stopX = true;
    // stopGame1 = false;
-   o1.style.color = "white";
-   playerO.classList.add("buttonColor");
-   x1.style.color = "black";
-   playerX.classList.remove("buttonColor");
+   o1.style.color = "#017aff";
+   playerO.style.background = "white";
+   x1.style.color = "white";
+   playerX.style.background = "#017aff";
 
       for(var i=0; i<td.length; i++){
         td[i].addEventListener("click",function(){
