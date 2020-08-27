@@ -11,11 +11,18 @@
 
     .clickButtons{
         font-size: 0.9em;
-        border: 2px solid orangered;
+        border: 2px solid white;
         border-radius: 5px;
+        background-color: #017aff;
+        span{
+            color: white;
+        }
+    }
+    .clickButtons:hover{
+        background-color: white;
+        span{
+            color: #017aff;
+        }
     }
 }
 
-.buttonColor{
-    background-image: linear-gradient(to right top, #c21600, #c93011, #d0421f, #d6512d, #dc603b, #e56e3d, #ee7d3f, #f68b42, #ffa037, #ffb72a, #ffcf1d, #fce816);
-}

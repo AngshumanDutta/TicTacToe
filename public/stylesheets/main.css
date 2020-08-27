@@ -58,13 +58,21 @@
 
 .box-2 .clickButtons {
   font-size: 0.9em;
-  border: 2px solid orangered;
+  border: 2px solid white;
   border-radius: 5px;
+  background-color: #017aff;
 }
 
-.buttonColor {
-  background-image: -webkit-gradient(linear, left bottom, right top, from(#c21600), color-stop(#c93011), color-stop(#d0421f), color-stop(#d6512d), color-stop(#dc603b), color-stop(#e56e3d), color-stop(#ee7d3f), color-stop(#f68b42), color-stop(#ffa037), color-stop(#ffb72a), color-stop(#ffcf1d), to(#fce816));
-  background-image: linear-gradient(to right top, #c21600, #c93011, #d0421f, #d6512d, #dc603b, #e56e3d, #ee7d3f, #f68b42, #ffa037, #ffb72a, #ffcf1d, #fce816);
+.box-2 .clickButtons span {
+  color: white;
+}
+
+.box-2 .clickButtons:hover {
+  background-color: white;
+}
+
+.box-2 .clickButtons:hover span {
+  color: #017aff;
 }
 
 .box-3 {
@@ -88,8 +96,21 @@
 
 .box-3 .clickButtons {
   font-size: 0.9em;
-  border: 2px solid orangered;
+  border: 2px solid white;
   border-radius: 5px;
+  background-color: #017aff;
+}
+
+.box-3 .clickButtons span {
+  color: white;
+}
+
+.box-3 .clickButtons:hover {
+  background-color: white;
+}
+
+.box-3 .clickButtons:hover span {
+  color: #017aff;
 }
 
 .box-4 {
@@ -111,12 +132,17 @@
 .box-4 #playAgainButton {
   font-size: 1.2em;
   color: white;
-  border: 1px solid #da5b2d;
-  -webkit-box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.2);
-          box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
   border-radius: 5px;
-  background-image: -webkit-gradient(linear, left bottom, right top, from(#c21600), color-stop(#c93011), color-stop(#d0421f), color-stop(#d6512d), color-stop(#dc603b), color-stop(#e56e3d), color-stop(#ee7d3f), color-stop(#f68b42), color-stop(#ffa037), color-stop(#ffb72a), color-stop(#ffcf1d), to(#fce816));
-  background-image: linear-gradient(to right top, #c21600, #c93011, #d0421f, #d6512d, #dc603b, #e56e3d, #ee7d3f, #f68b42, #ffa037, #ffb72a, #ffcf1d, #fce816);
+  background-color: #017aff;
+}
+
+.box-4 #playAgainButton:hover {
+  font-size: 1.2em;
+  color: #017aff;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: white;
 }
 
 .box-5 {
@@ -134,14 +160,13 @@
       -ms-flex-align: center;
           align-items: center;
   font-size: 1.8em;
-  color: white;
-  text-shadow: 1.5px 1.5px 1px #302e2e;
+  color: #222121;
 }
 
 .box-7 {
-  font-size: 0.86em;
-  color: #f35415;
-  text-shadow: 0.5px 0.5px 0.5px #e9c7c7;
+  font-size: 0.9em;
+  color: white;
+  text-shadow: 0.4px 0.4px 0.3px #1f1e1e;
 }
 
 .box-6 {
@@ -155,15 +180,41 @@
 }
 
 .box-6 .horizontal {
-  border-bottom: 6px solid #424040;
-  border-top: 6px solid #424040;
+  border-bottom: 6px solid #E3DFFD;
+  border-top: 6px solid #E3DFFD;
   border-radius: 3px;
+  -webkit-animation: anime 2s ease;
+          animation: anime 2s ease;
 }
 
 .box-6 .vertical {
-  border-right: 6px solid #424040;
-  border-left: 6px solid #424040;
+  border-right: 6px solid #E3DFFD;
+  border-left: 6px solid #E3DFFD;
   border-radius: 3px;
+  -webkit-animation: anime 1.2s ease;
+          animation: anime 1.2s ease;
+}
+
+@-webkit-keyframes anime {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes anime {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 
 .displayStyleXtran {
@@ -204,8 +255,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: #4b4b4c;
-  background: linear-gradient(325deg, #4b4b4c 2%, #c8c9d2 21%, #c3c3c9 45%, #5d5e5f 93%);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#1811af), color-stop(#0062e6), color-stop(#009afc), color-stop(#00cdfd), to(#5bfdfd));
+  background-image: linear-gradient(to right bottom, #1811af, #0062e6, #009afc, #00cdfd, #5bfdfd);
 }
 
 section {
@@ -245,12 +296,12 @@ section {
 }
 
 .cutting {
-  -webkit-text-decoration: line-through red;
-          text-decoration: line-through red;
+  -webkit-text-decoration: line-through #050178;
+          text-decoration: line-through #050178;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
-  -webkit-transition-delay: 0.1s;
-          transition-delay: 0.1s;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
 }
 
 @media screen and (max-width: 575px) {
@@ -328,8 +379,18 @@ section {
   }
   .box-2 .clickButtons {
     font-size: 0.85em;
-    border: 2px solid orangered;
+    border: 2px solid white;
     border-radius: 5px;
+    background-color: #017aff;
+  }
+  .box-2 .clickButtons span {
+    color: white;
+  }
+  .box-2 .clickButtons:hover {
+    background-color: white;
+  }
+  .box-2 .clickButtons:hover span {
+    color: #017aff;
   }
   .box-3 {
     display: -webkit-box;
@@ -347,12 +408,22 @@ section {
     width: 61.5%;
     font-size: 0.85em;
     color: white;
-    text-shadow: 2px 2px 1px #302e2e;
+    text-shadow: 1.5px 1.5px 1px #302e2e;
   }
   .box-3 .clickButtons {
     font-size: 0.85em;
-    border: 2px solid orangered;
+    border: 2px solid white;
     border-radius: 5px;
+    background-color: #017aff;
+  }
+  .box-3 .clickButtons span {
+    color: white;
+  }
+  .box-3 .clickButtons:hover {
+    background-color: white;
+  }
+  .box-3 .clickButtons:hover span {
+    color: #017aff;
   }
   .box-4 {
     display: -webkit-box;
@@ -372,12 +443,16 @@ section {
   .box-4 #playAgainButton {
     font-size: 0.85em;
     color: white;
-    border: 1px solid orangered;
-    -webkit-box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.2);
-            box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
     border-radius: 5px;
-    background-image: -webkit-gradient(linear, left bottom, right top, from(#c21600), color-stop(#c93011), color-stop(#d0421f), color-stop(#d6512d), color-stop(#dc603b), color-stop(#e56e3d), color-stop(#ee7d3f), color-stop(#f68b42), color-stop(#ffa037), color-stop(#ffb72a), color-stop(#ffcf1d), to(#fce816));
-    background-image: linear-gradient(to right top, #c21600, #c93011, #d0421f, #d6512d, #dc603b, #e56e3d, #ee7d3f, #f68b42, #ffa037, #ffb72a, #ffcf1d, #fce816);
+    background-color: #017aff;
+  }
+  .box-4 #playAgainButton:hover {
+    font-size: 0.85em;
+    color: #017aff;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
   }
   .box-5 {
     width: 40%;
@@ -394,8 +469,7 @@ section {
         -ms-flex-align: center;
             align-items: center;
     font-size: 1.2em;
-    color: white;
-    text-shadow: 1.5px 1.5px 1px #302e2e;
+    color: #222121;
   }
 }
 /*# sourceMappingURL=main.css.map */
