@@ -300,8 +300,8 @@ section {
           text-decoration: line-through #050178;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
-  -webkit-transition-delay: 0.2s;
-          transition-delay: 0.2s;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
 }
 
 @media screen and (max-width: 575px) {
