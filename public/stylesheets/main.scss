@@ -14,7 +14,7 @@ body{
 section{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 47vw;
     height: 97vh;
@@ -158,5 +158,8 @@ section{
         align-items: center;
         font-size: 1.2em;
         color: #222121;
+    }
+    .box-6{
+        height: 63%;
     }
 }
