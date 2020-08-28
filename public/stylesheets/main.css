@@ -323,7 +323,7 @@ section {
     margin: auto;
   }
   .box-1 {
-    height: 6%;
+    height: 5%;
     width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -372,6 +372,7 @@ section {
         -ms-flex-align: center;
             align-items: center;
     width: 99.5%;
+    height: 3%;
     font-size: 0.85em;
     color: white;
     text-shadow: 2px 2px 1px #302e2e;
